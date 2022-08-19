@@ -1,8 +1,14 @@
-# fresh project
+# tall buttercup
+
+### dependent
+
+[Lttce/cynoglossum-amabile](https://github.com/Lttce/cynoglossum-amabile)
 
 ### Usage
 
-Start the project:
+1. clone this project.
+
+1. Start the project:
 
 ```
 deno task start
