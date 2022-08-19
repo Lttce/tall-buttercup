@@ -10,15 +10,31 @@ export default function UsersList() {
     bio: string;
   }
 
+  interface UserProps {
+    userName: string;
+    userId: string;
+    userBio: string;
+  }
+
   const [users, setUsers] = useState<User[]>([]);
+
+  const UserRow = (props: UserProps) => {
+    return (
+      <div class={tw`bg-gray-100 my-2 p-2`}>
+        <p class={tw`text-lg`}>{props.userName}</p>
+        <p>{props.userId}</p>
+        <p>{props.userBio}</p>
+      </div>
+    );
+  };
 
   const UsersList = users.map((user) => {
     return (
-      <div class={tw`bg-gray-100 my-2 p-2`}>
-        <p class={tw`text-lg`}>{user.name}</p>
-        <p>@{user.id}</p>
-        <p>{user.bio}</p>
-      </div>
+      <UserRow
+        userName={user.name}
+        userId={user.id}
+        userBio={user.bio}
+      />
     );
   });
 
