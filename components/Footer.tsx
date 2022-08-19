@@ -4,7 +4,7 @@ import { tw } from "@twind";
 
 export function Footer() {
   return (
-    <footer class={tw`bg-gray-100 mt-auto`}>
+    <footer class={tw`mt-auto border-t-1 border-black`}>
       <div class={tw`flex justify-center items-center`}>
         <span class={tw`text-xs`}>
           Built with Fresh

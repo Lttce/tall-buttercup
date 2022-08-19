@@ -4,7 +4,7 @@ import { tw } from "@twind";
 
 export function Header() {
   return (
-    <header class={tw`bg-gray-100 mb-2`}>
+    <header class={tw`mb-2 border-b-1 border-black`}>
       <div class={tw`text-2xl m-2`}>Tall Buttercup</div>
     </header>
   );

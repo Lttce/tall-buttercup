@@ -20,7 +20,7 @@ export default function UsersList() {
 
   const UserRow = (props: UserProps) => {
     return (
-      <div class={tw`bg-gray-100 my-2 p-2`}>
+      <div class={tw`my-2 p-2 border-t-1 border-black`}>
         <p class={tw`text-lg`}>{props.userName}</p>
         <p>{props.userId}</p>
         <p>{props.userBio}</p>
