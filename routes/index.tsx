@@ -2,7 +2,7 @@
 /** @jsxFrag Fragment **/
 import { Fragment, h } from "preact";
 import { tw } from "@twind";
-import UsersList from "../islands/usersList.tsx";
+import UsersList from "../islands/UsersList.tsx";
 import { Footer } from "../components/Footer.tsx";
 
 export default function Home() {
