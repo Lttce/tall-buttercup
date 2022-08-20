@@ -1,8 +1,8 @@
 # tall buttercup
 
-### dependent
+### dependencies
 
-[Lttce/cynoglossum-amabile](https://github.com/Lttce/cynoglossum-amabile)
+- [Lttce/cynoglossum-amabile](https://github.com/Lttce/cynoglossum-amabile)
 
 ### Usage
 
